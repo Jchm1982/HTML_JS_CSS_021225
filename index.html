@@ -141,42 +141,46 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa facere magnam nulla, minima, voluptas dolorem</p>
          </section>
    </div><!--Fin de Servicios-->
-   </main>
    
-   <section>
-      <h2>Contacto</h2>
-      <form action="">
-         <fieldset>
-            <legend>Contactanos llenando todos los campos</legend>
-            <div>
-               <label for="">Nombre</label>
-               <input type="text" placeholder="Tu Nombre">
-            </div>
-            
-            <div>
-               <label for="">Telefono</label>
-               <input type="tel" placeholder="Tu Telefono">
-            </div>
+      
+      <section>
+         <h2>Contacto</h2>
+         <form class="formulario">
+            <fieldset>
+               <legend>Contactanos llenando todos los campos</legend>
+               <div class="contenedor-campos">
+                  <div class="campo">
+                     <label for="">Nombre</label>
+                     <input class="input-text" type="text" placeholder="Tu Nombre">
+                  </div>
+                  
+                  <div class="campo">
+                     <label for="">Telefono</label>
+                     <input class="input-text" type="tel" placeholder="Tu Telefono">
+                  </div>
 
-            <div>
-               <label for="">Correo</label>
-               <input type="email" placeholder="Tu Email">
-            </div>
+                  <div class="campo">
+                     <label for="">Correo</label>
+                     <input class="input-text"type="email" placeholder="Tu Email">
+                  </div>
 
-            <div>
-               <label for="">Mensaje</label>
-               <textarea name="" id=""></textarea>
-            </div> 
+                  <div class="campo">
+                     <label for="">Mensaje</label>
+                     <textarea class="input-text" name="" id=""></textarea>
+                  </div>
+               </div><!--Contenedor-campos-->
 
-            <div>
-               <input type="submit" value="Enviar">
-            </div>
-         </fieldset>
-      </form>
-   </section>
+               <div class="alinear-derecha flex ">
+                  <input class="boton w-sm-100" type="submit" value="Enviar">
+               </div>
+            </fieldset>
+         </form>
+      </section>
+   </main>
 
-   <footer>
+   <footer class="footer">
       <p>Todos los Derechos Reservados JCHM</p>
    </footer>
+   <div>Juan C</div>
 </body>
 </html>
